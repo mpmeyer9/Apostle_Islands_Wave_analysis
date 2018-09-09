@@ -18,7 +18,7 @@ Because of this, the data was organized into wind direction categories and analy
 The included scripts are not nearly a complete presentation of the analysis done for this project but are provided as a 
 means of demonstrating my ability to clean, organize, relate, and present data in R.
 
-Included scripts:
+Included scripts (necessary add on packages listed below):
 
 Records_compiler - Loads and compiles into a single data frame the data included in the "Source Data" folder, 
 records from the different sources are related by date and time
@@ -38,3 +38,11 @@ demonstrate web scraping that was done to create some of the data used for this 
 from a website and writes them to a CSV file along with the date, time, and a link to a photo taken by a webcam at the
 study location at the time of the waveheight measurement
 
+Packages used and necssary to run the above scripts:
+XML
+stringr
+R.matlab
+data.table
+dplyr
+lubridate
+ggplot2
