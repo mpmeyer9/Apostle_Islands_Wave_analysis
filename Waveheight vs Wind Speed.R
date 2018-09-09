@@ -37,7 +37,8 @@ records$binscust2<-as.factor(records$binscust2)
 levels(records$binscust2)<-binsnames
 #plotting results
 plotcustom2<-ggplot(records, aes(wind_speed,Waveheight))+geom_point()+facet_wrap(~binscust2,2,5)+geom_smooth(method="lm",se=FALSE)+
-  ggtitle("Wave height vs. wind speed by wind direction")+xlab("Wind speed (m/s)")+ylab('Wave height (ft)')
+  ggtitle("Wave height vs. wind speed by wind direction")+xlab("Wind speed (m/s)")+ylab('Wave height (ft)')+
+  scale_x_continuous(limits = c(0, 5))
 print(plotcustom2)
 #Writing summary of regression data to CSV
 write.csv(regressionsumcust2,file = "Wind speed regression summary.csv")
