@@ -18,6 +18,11 @@ Because of this, the data was organized into wind direction categories and analy
 The included scripts are not nearly a complete presentation of the analysis done for this project but are provided as a 
 means of demonstrating my ability to clean, organize, relate, and present data in R.
 
+The figures created by the scripts are shown below:
+
+![alt text](https://github.com/mpmeyer9/Apostle_Islands_Wave_analysis/blob/master/Figures/Buoy.png)
+![alt text](https://github.com/mpmeyer9/Apostle_Islands_Wave_analysis/blob/master/Figures/Wind%20speed.png)
+
 Included scripts (necessary add on packages listed below):
 
 Records_compiler - Loads and compiles into a single data frame the data included in the "Source Data" folder, 
