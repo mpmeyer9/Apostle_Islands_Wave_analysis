@@ -18,8 +18,8 @@ Because of this, the data was organized into wind direction categories and analy
 The included scripts are not nearly a complete presentation of the analysis done for this project but are provided as a 
 means of demonstrating my ability to clean, organize, relate, and present data in R.
 
-
 Included scripts:
+
 Records_compiler - Loads and compiles into a single data frame the data included in the "Source Data" folder, 
 records from the different sources are related by date and time
 
