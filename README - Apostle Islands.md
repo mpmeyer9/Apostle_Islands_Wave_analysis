@@ -28,12 +28,12 @@ Included scripts (necessary add on packages listed below):
 Records_compiler - Loads and compiles into a single data frame the data included in the "Source Data" folder, 
 records from the different sources are related by date and time
 
-Waveheight vs Wind Speed - Uses the data frame created in Records_Compiler (runs this script 
+Waveheight vs Wind Speed - Uses the data frame created in Records_Compiler (runs that script 
 if the data frame is not already created) to graph and compute the correlation between waveheights recorded at the 
 study location with windspeeds recorded at a nearby weather station. The data is divided by wind direction at the time
 of the wave height recorded, and correlations are created for each wind direction category.
 
-Waveheight vs NOAA buoy wave height - Uses the data frame created in Records_Compiler (runs this script 
+Waveheight vs NOAA buoy wave height - Uses the data frame created in Records_Compiler (runs that script 
 if the data frame is not already created) to graph and compute the correlation between waveheights recorded at the 
 study location with waveheights recorded at a NOAA buoy in western Lake Superior. The data is divided by wind direction 
 at the time of the wave height recorded, and correlations are created for each wind direction category.
